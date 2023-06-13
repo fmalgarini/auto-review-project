@@ -1,17 +1,48 @@
-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
+/* All settings */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227, 230, 233);
+}
 
-#navbar {
-   
-        display: inline;
-      }
-    
-      @media only screen and (max-width: 600px) {
-      body {
-        background-color: lightblue;
-      }
-    }
+/* Nav settings */
+.nav-container {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  gap: 25px;
+}
+
+/* First section */
+
+.first-section-container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1rem;
+  font-size: 23px;
+}
+
+/* Second section and projects */
+
+.project-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 80%;
+}
+
+.project-container a {
+  background-color: rgb(166, 113, 216);
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+  font-size: 25px;
+  font-style: oblique;
+  border-radius: 15%;
+}
